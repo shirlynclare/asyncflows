@@ -6,7 +6,7 @@ async def main():
     flow = AsyncFlows.from_file("hello_world.yaml")
 
     # Run the flow
-    result = await flow.set_vars(name="MY_NAME").run()
+    result = await flow.set_vars(name="SHIRLYN CLARE").run()
 
     # Print the result
     print(result)
